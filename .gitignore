@@ -1,0 +1,7 @@
+/.idea/
+/.gradle/
+/engine-jda/build/
+/engine-kord/build
+/test/build/
+# Project exclude paths
+/build/

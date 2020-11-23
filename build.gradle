@@ -1,0 +1,30 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+    id 'maven-publish'
+}
+
+group 'club.chachy'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'com.google.code.gson:gson:2.8.6'
+}
+
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'club.chachy'
+            artifactId = 'dbl'
+            version = '0.1-DEV'
+
+            from components.java
+        }
+    }
+}
