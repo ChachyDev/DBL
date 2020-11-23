@@ -8,9 +8,7 @@ import club.chachy.dbl.engine.entities.channel.text.TextChannel
 import club.chachy.dbl.engine.entities.channel.text.embeds.*
 import club.chachy.dbl.engine.entities.guild.Guild
 import club.chachy.dbl.engine.entities.user.User
-import club.chachy.engines.kord.cache.UserDescription
 import club.chachy.engines.kord.processor.KordProcessor
-import com.gitlab.kordlib.cache.api.data.description
 import com.gitlab.kordlib.common.entity.Snowflake
 import com.gitlab.kordlib.core.Kord
 import com.gitlab.kordlib.core.behavior.channel.createEmbed
